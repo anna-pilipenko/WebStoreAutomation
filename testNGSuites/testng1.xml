@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Crutchfield startPage ">
+
+    <test name="Demo Tests">
+        <!-- <groups>
+                     <run>
+                         <include name="startPage" />
+                     </run>
+            </groups>
+
+         -->
+
+
+         <classes>
+             <class name="apilipen.crutchfield.tests.CrutchfieldTests">
+                    <methods>
+                      <include name="startPageTitleTest"/>
+                         <include name="howManyNullHrefAtrribute"/>
+                         <include name="howManyNullImgAtrribute"/>
+                         <include name="howManyScrAltAttrubute"/>
+                         <include name="linkStatusTest"/>
+                    </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
